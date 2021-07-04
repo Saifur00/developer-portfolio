@@ -53,6 +53,44 @@ p {
 }
 
 .single-class {
-  margin: 120px 45px 0;
+  margin: 180px 45px 40px;
   font-size: 45px;
+}
+
+.exp {
+  margin-bottom: 50px;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.thirddiv-class {
+  width: 40%;
+  height: 250px;
+  box-shadow: 10px 10px 40px gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5px 60px;
+  border-radius: 10px;
+}
+
+#front-end-dev {
+  border-left: 6px solid;
+  border-image: linear-gradient(red, tomato);
+  border-image-slice: 1;
+}
+
+#sqa-engineer {
+  border-left: 6px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+footer p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.fixingdiv {
+  margin-top: 45px;
 }
