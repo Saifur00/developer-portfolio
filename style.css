@@ -15,9 +15,8 @@ p {
   margin-bottom: 35px;
 }
 
-section {
+.flex-container {
   display: flex;
-  margin-bottom: 220px;
 }
 
 .heading-class {
@@ -40,14 +39,20 @@ section {
 .first-section {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  margin-bottom: 220px;
 }
 
 .second-class {
-  margin-right: 105px;
+  padding-right: 150px;
 }
 
 .second-section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.single-class {
+  margin: 120px 45px 0;
+  font-size: 45px;
 }
