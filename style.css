@@ -1,5 +1,6 @@
 body {
   font-family: "Otomanopee One", sans-serif;
+  margin: 0;
 }
 
 h1 {
@@ -16,6 +17,7 @@ p {
 
 section {
   display: flex;
+  margin-bottom: 220px;
 }
 
 .heading-class {
@@ -33,4 +35,19 @@ section {
   color: #ffffff;
   padding: 10px 25px;
   border-radius: 5%;
+}
+
+.first-section {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.second-class {
+  margin-right: 105px;
+}
+
+.second-section {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
